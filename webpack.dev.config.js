@@ -10,8 +10,9 @@ module.exports = {
     devServer: {
         open: true,
         port: 8080,
-        hot: true,
-        writeToDisk: true,
+        static: {
+            directory: path.join(__dirname, '/'),
+        },
     },
     module: {
         rules: [{

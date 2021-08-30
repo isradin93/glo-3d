@@ -19,4 +19,4 @@ const toggleMenu = () => {
     });
 };
 
-toggleMenu();
+export default toggleMenu;
